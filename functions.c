@@ -6,10 +6,10 @@ int main()
 {
     int num, result;
  
-    printf("Enter the number: ");
+    printf("Input number: ");
     scanf("%d", &num);
     result = sum(num);
-    printf("Sum of digits in %d is %d\n", num, result);
+    printf("Sum of digits: %d  %d\n", num, result);
     return 0;
 }
  
